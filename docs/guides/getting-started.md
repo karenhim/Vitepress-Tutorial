@@ -29,7 +29,7 @@ yarn vitepress init
 :::
 
 You will be greeted with a few simple questions:
-```init.ansi
+```
 ┌  Welcome to VitePress!
 │
 ◇  Where should VitePress initialize the config?
@@ -84,7 +84,7 @@ The `docs` directory is considered the project root of the VitePress site. The `
 
 The config file (`.vitepress/config.js`) allows you to customize various aspects of your VitePress site, with the most basic options being the title and description of the site:
 
-```.vitepress/config.js
+```js
 export default {
   // site-level options
   title: 'VitePress',
