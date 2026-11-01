@@ -1,0 +1,19 @@
+.custom-block.success {
+  border-color: transparent;
+  color: var(--vp-c-text-1);
+  background-color: var(--vp-c-success-soft);
+}
+
+.custom-block.success a,
+.custom-block.success code {
+  color: var(--vp-c-success-1);
+}
+
+.custom-block.success a:hover,
+.custom-block.success a:hover > code {
+  color: var(--vp-c-success-2);
+}
+
+.custom-block.success code {
+  background-color: var(--vp-c-success-soft);
+}
