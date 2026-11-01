@@ -123,10 +123,10 @@ The tool should have also injected the following npm scripts to your `package.js
 The `docs:de`v script will start a local dev server with instant hot updates. Run it with the following command:
 
 ::: code-group
-```npm [npm]
+```sh [npm]
 npm run docs:dev
 ```
-```yarn [yarn]
+```sh [yarn]
 yarn docs:dev
 ```
 :::
@@ -134,10 +134,10 @@ yarn docs:dev
 Instead of npm scripts, you can also invoke VitePress directly with:
 
 ::: code-group
-```npm [npm]
+```sh [npm]
 npx vitepress dev docs
 ```
-```yarn [yarn]
+```sh [yarn]
 yarn vitepress dev docs
 ```
 :::
