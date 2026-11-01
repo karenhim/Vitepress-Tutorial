@@ -27,8 +27,15 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/karenhim' }
-    ]
+    ],
+     
+    footer: {
+  message: 'Built with <a href="https://vitepress.dev">VitePress</a>',
+  copyright: 'Copyright © 2026 Karen Himawan'
+}
   },
+
+  
   markdown: {
   config: (md) => {
     md.use(container, 'success', {
