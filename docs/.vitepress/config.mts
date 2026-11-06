@@ -7,6 +7,7 @@ export default defineConfig({
   title: "Vitepress Tutorial",
   titleTemplate: "Live demo",
   lang: 'en-US',
+  cleanUrls: true,
   
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
