@@ -20,7 +20,8 @@ export default defineConfig({
   '/guides/': [
     { text: 'Guides', items: [
       { text: 'Getting Started', link: '/guides/getting-started' },
-      { text: 'Routing', link: '/guides/routing' }
+      { text: 'Routing', link: '/guides/routing' },
+      { text: 'Components', link: '/guides/components' }
     ]}
   ]
 },
